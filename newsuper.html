@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/form.css">
+    <title>New Heroes</title>
+</head>
+<body>
+    <header>
+        <div class="descuento">
+            <p>
+            20% de descuento en todos los productos!
+            </p>
+        </div>
+        <div class="logo">
+            <img src="./img/Rectangle.png" alt="Logo">
+            <h1>
+            Nombre Tienda
+            </h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Registrarme</a></li>
+                <li><a href="#">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+        <div class="title">
+            <h1>Añadi tu super!</h1>
+            <p>Agrega tu personaje favorito</p>
+        </div>    
+        
+            <article>
+                <form action="post" >
+                    <div class="name">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+                       
+                    <div class="date">
+                        <label for="fecha">Fecha</label>
+                        <input type="date" name="fecha" id="fecha">
+                    </div>
+                    
+                    <div class="descrip">
+                        <label for="descripcion">Descripcion</label>
+                        <input type="" name="descripcion" id="descripcion">
+                    </div>
+                    <div class="specie">
+                        <label for="especie">Especie</label>
+                        <select name="especie" id="especie">
+                            <option value="unkwn">Unknown</option>
+                            <option value="Namek">Namekusein</option>
+                            <option value="Cry">Crtypton</option>
+                        </select>
+
+                    </div>
+                    <div class="photo">
+                        <label for="foto">Agregar Foto</label>
+                        <input type="file" name="foto" id="foto" accept=".jpg,.png">
+                    </div>
+                    <div class="powers">
+                        <p>Poderes</p>
+                        <label for="volar">Volar</label>
+                        <input type="checkbox" name="volar" id="volar">
+                        <div>
+                        <label for="superinteligencia">SuperInteligencia</label>
+                        <input type="checkbox" name="superinteligencia" id="superinteligencia">
+                        </div>
+                        <label for="vista_rayos_laser">Vista de Rayos Laser</label>
+                        <input type="checkbox" name="vista_rayos_laser" id="vista_rayos_laser">
+                        <div>
+                        <label for="billera">Billetera Gorda</label>
+                        <input type="checkbox" name="billera" id="billera">
+                        </div>
+                    </div>
+                    <div class="type">
+                        <p>Tipo de Personaje</p>
+                        <label for="heroe">Heroe/Heroina</label>
+                        <input type="radio" name="tipo" id="heroe">
+
+                        <label for="villan">Villano/Villana</label>
+                        <input type="radio" name="tipo" id="villan">
+                    </div>
+                    <div>
+                        <input type="submit">
+                    </div>
+                </form>
+            </article>
+
+
+        </section>
+
+</main>
+    <footer>
+    <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+    </body>
+</html>
