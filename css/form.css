@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&family=Roboto:wght@400;700&display=swap');
 
 * {
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
     margin: 0%;
 }
 html{
     font-size: 1rem;
+}
+header{
+    font-family: 'Roboto', sans-serif;
 }
 header .descuento {
     background-color: #1CD1B0;
@@ -15,6 +17,7 @@ header .descuento {
     display: flex;
     align-items: center;
     padding-left: 10px;
+    
 }
 header .logo{
     background-color: #00669F;
@@ -40,6 +43,13 @@ header nav ul li a{
     color: white;
     text-decoration: none;
 }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    font-family: 'Inter', sans-serif;
+}
 main section{
     background-color: #00669F;
     width: 954px;
@@ -48,8 +58,9 @@ main section{
     /* text-align: center; */
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    border-radius: 50px;
 }
 main section article form{
     display: flex;
@@ -61,6 +72,21 @@ main section .title{
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
+}
+main section .title h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+main section .tittle p{
+    font-weight: 300;
+    font-size: 20px;
+}
+main section article form{
+    display: flex;
+}
+main section article form .name{
+    display: flex;
+    flex-direction: column;
 }
 
 footer{
